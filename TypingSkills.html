@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Avinash Kant-Project</title>
+  <link rel="icon" href="profileassets/a100.jpg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="animate.css"/>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/TypingSkills.js"></script>
+  <link rel="stylesheet" href="css/mainstyle.css" />
+  <link rel="stylesheet" href="css/backtotop.css"/>
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"> -->
+  <style>  
+  .se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(profileassets/loader.gif) center no-repeat #fff;
+  }
+</style>
+
+</head>
+<body>
+<div class="se-pre-con"></div>
+  <header class="blue section-dark text-center name">
+   <h1 class="hclass">
+    <a href="https://www.linkedin.com/in/waytoavinashkantmishra/" title="Click to view linkedin profile" style="color: #fff;" target="_blank">Avinash Kant </a>
+    <!--     <sup><i class="fa fa-linkedin"></i></sup> -->
+  </h1>
+  <h3>PHP Developer</h3>
+  <h4> 
+    <a style="color: #fff;" href="mailto:contact.avinashkantse@gmail.com" title="Click to mail"> contact.avinashkantse@gmail.com</a> 
+    <sup><i class="fa fa-envelope fa-lg"></i></sup>
+  </h4>
+</header>
+
+
+<div style=" border: 1px dashed blueviolet;">
+
+  <div  style="margin: 10px 50px 20px 50px;"> 
+    <br/> 
+    <h2>Welcome to Typing Skills page!</h2> <p>Type this content to check your skills</p>
+    <hr/>
+    <p class="lead" style="color:#d43f3a;" id="putContent">
+      Web developer specialized in back-end development and has experience in all stages of the development cycle for dynamic web projects. I want to secure a challenging position in IT world that would entrust me with an opportunity for using my expertise in web development and application design.
+    </p>
+    <button id="getnewcontent" class="btn btn-primary">New Content</button>
+  </div> 
+  
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 well">
+ <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+  <div class="thumbnail">
+    <div id="errordiv">
+      <span>Number of errors:</span>
+      <span id="numberoferror"> 0</span>
+      <hr style="margin:5px;" />
+    </div>
+    <div id="Numberofwords">
+      <span>Total Number of words for typing:</span>
+      <span id="numberofwordsidput"> 0</span>
+      <hr style="margin:5px;" />
+    </div>
+    <div id="Numberofchar">
+      <span>Total Number of Characters for typing:</span>
+      <span id="numberofcharidput"> 0</span>
+    </div>
+  </div>
+
+
+
+
+
+</div>
+<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+
+
+  <textarea id="texttype" class="form-control" rows="10" cols="50" placeholder="Type Here"></textarea>
+  <input type="hidden" id="valForCheck" value="0" />
+</div> 
+
+
+</div>
+
+<div class="clearfix"></div>
+<!-- 
+<br>
+<div class="col-md-3 avidivwidth">
+  <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="waytoavinashkant"><a target="_blank" class="LI-simple-link" href='https://in.linkedin.com/in/waytoavinashkant?trk=profile-badge'>Avinash Kant</a></div>
+</div>
+<div class="col-md-3 avidivwidth" style="border: 1px outset lightblue;box-shadow: inset 0px 0px 2px 0px #888888;">
+  <h3>
+    <a target="_blank" href="https://www.linkedin.com/today/author/waytoavinashkantmishra" class="ffd">Linkedin Articles</a>
+  </h3>
+</div>
+
+<div class="clearfix"></div> -->
+<hr>
+<button onclick="topFunction()" id="backToTopBtn" title="Go to top">Goto Top</button>
+<footer>
+  <strong class="ffd">
+    ©  <?php echo date('Y'); ?>  All right received by <a href="https://www.linkedin.com/in/waytoavinashkantmishra/" title="Click to mail" style="color: #fff;" target="_blank" class="ffd">Avinash Kant</a>
+  </strong>
+</footer> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/backtotop.js"></script>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<script>
+  $(window).on('load', function(){
+   $(".se-pre-con").fadeOut("slow");
+ });
+</script>
+</body>
+</html>
