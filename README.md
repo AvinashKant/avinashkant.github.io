@@ -1,2 +1,1 @@
-I have more than 1 year IT industry experience as PHP & Python Developer and have knowledge of several frameworks like Danjo, Laraval,  and CodeIgniter, WordPress
-
+I have more than 2 year IT industry experience as Python and PHP Development. I have knowledge of several frameworks like Django, Laraval,Lumen, and CodeIgniter. I have a passion for computer applications and currently learning machine learning algorithm and technique. I am a conscientious person who works hard and pays attention to detail. I'm flexible, quick to pick up new skills and eager to learn from others.
