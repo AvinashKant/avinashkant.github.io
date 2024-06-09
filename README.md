@@ -1,7 +1,7 @@
 ### Nice to meet you! 👋
 
-I have more than 4 years of IT industry experience in PHP, Python, and Node .js Development.
+5+ years of experience developing web applications using PHP, Python, and Node.js. 
 
-I have knowledge of several frameworks like Expressjs, Laraval, Vue.js, and CodeIgniter. I have a passion for computer applications and currently learning machine learning algorithms and techniques. I am a conscientious person who works hard and pays attention to detail.
+Proficient in frameworks such as Express.js, Laravel, Vue.js, ReactJs. Actively expanding knowledge in Machine Learning algorithms and techniques. Highly motivated developer with a strong work ethic and meticulous attention to detail. Adaptable and quick learner with a collaborative spirit.
 
 I'm flexible, quick to pick up new skills, and eager to learn from others. 
