@@ -1,2 +1,2 @@
 <?php
-header("location:https://avinashkant.000webhostapp.com/");
+header("location:https://avinashkant.github.io/");
